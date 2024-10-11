@@ -1,0 +1,25 @@
+[project]
+name = "fusion-jailbreaks"
+version = "1.0.0"
+description = "Codebase for the paper Gradient-based Jailbreak Images for Multimodal Fusion Models"
+readme = "README.md"
+requires-python = "==3.11.9"
+dependencies = [
+    "accelerate>=0.34.2",
+    "datasets>=3.0.1",
+    "jailbreakbench>=1.0.0",
+    "jupyterlab>=4.2.5",
+    "litellm>=1.48.10",
+    "matplotlib>=3.9.2",
+    "pandas>=2.2.3",
+    "ruff>=0.6.8",
+    "torchvision>=0.19.1",
+    "transformers",
+    "wandb>=0.18.3",
+]
+
+[tool.uv.sources]
+transformers = { git = "https://github.com/javirandor/transformers.git" }
+
+[tool.uv.workspace]
+members = ["test"]

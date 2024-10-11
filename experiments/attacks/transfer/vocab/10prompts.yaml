@@ -1,0 +1,13 @@
+model_size: "7b"
+shortcut_type: "vocab"
+shortcut_checkpoint: "data/models/vocab_2024-07-25 12:50:30.579597/FINAL.pth"
+starting_lr: 0.01
+lr_decay: true
+num_iterations: 500
+dtype: "bfloat16"
+image: 2
+prevent_prefixes: true
+prevent_recovery: false
+softmax_temperature: 6
+use_longer_target: true
+num_train_prompts: 10

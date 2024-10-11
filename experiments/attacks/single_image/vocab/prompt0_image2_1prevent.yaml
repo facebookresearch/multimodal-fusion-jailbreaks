@@ -1,0 +1,17 @@
+dtype: bfloat16
+filter_train_prompts:
+- 0
+image: 2
+lr_decay: true
+model_size: 7b
+num_iterations: 500
+prevent_prefixes: true
+prevent_recovery: false
+results_folder: data/results/single_prompt/vocab/
+shortcut_checkpoint: data/models/vocab_2024-07-25 12:50:30.579597/FINAL.pth
+shortcut_type: vocab
+softmax_temperature: 6
+starting_lr: 0.01
+test_split: null
+train_split: test
+use_longer_target: true

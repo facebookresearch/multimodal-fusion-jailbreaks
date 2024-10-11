@@ -1,0 +1,7 @@
+model_size: "7b"
+shortcut_type: "embed"
+batch_size: 64
+images_filter: null
+num_epochs: 1
+starting_lr: 0.00009
+loss: cosine

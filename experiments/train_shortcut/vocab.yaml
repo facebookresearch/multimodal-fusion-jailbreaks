@@ -1,0 +1,5 @@
+model_size: "7b"
+shortcut_type: "vocab"
+batch_size: 32
+num_epochs: 1
+starting_lr: 0.001

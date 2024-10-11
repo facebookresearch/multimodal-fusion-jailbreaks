@@ -1,0 +1,3 @@
+[submodule "circuit-breakers"]
+	path = circuit-breakers
+	url = git@github.com:javirandor/circuit-breakers.git

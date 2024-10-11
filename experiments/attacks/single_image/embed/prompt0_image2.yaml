@@ -1,0 +1,17 @@
+dtype: bfloat16
+filter_train_prompts:
+- 0
+image: 2
+lr_decay: true
+model_size: 7b
+num_iterations: 200
+prevent_prefixes: false
+prevent_recovery: false
+results_folder: data/results/single_prompt/embed/
+shortcut_checkpoint: data/models/embed_cosine_2024-08-31 15:23:54.912903/FINAL.pth
+shortcut_type: embed
+softmax_temperature: 6
+starting_lr: 0.01
+test_split: null
+train_split: test
+use_longer_target: true
